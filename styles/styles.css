@@ -58,10 +58,10 @@ h2 {
 .menu {
     margin-right: 30px;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    /* flex-direction: row; */
+    justify-content: space-between;
     align-items: center;
-    list-style-type: none;
+    /* list-style-type: none; */
     border: dashed 1px red;
 }
 
@@ -139,15 +139,14 @@ h2 {
 }
 
 .search-advanced-inst {
-    min-width: 350px;
-    display: block;
+    min-width: 300px;
     border: 1px solid green;
 }
 
 .search-advanced-query {
-    display: block;
     padding: 0 20px;
-    width: 600px;
+    width: 800px;
+    /* width: calc(100%-500px); */
     height: 48px;
     border-radius: 4px;
     border: 1px solid greenyellow;
@@ -212,4 +211,8 @@ h2 {
         margin: 0;
         width: auto;
     } 
+
+    .search-advanced-query {
+        width: 100%;
+    }
 }
