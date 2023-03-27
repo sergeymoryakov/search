@@ -5,30 +5,58 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body class="container">
-    <header class="section-top">
+    <header class="section-top-advanced">
         <div class="logo-advanced">
             <img class="logo-img" src="resources/google-logo-color.png" alt="Google Logo">
         </div>
         <div class="menu">
             <ul>
-                <li><a href="index.html">google</a></li>
+                <li><a href="index.html">Google Search</a></li>
             </ul>
         </div>
     </header>
     <main>
         <div class="query-advanced">
+            <H1>Advanced search</H1>
+            <h2>Find pages with… </h2>
             <form action="https://google.com/search">
                 <div class="search-advanced">
                     <div class="search-advanced-inst">
                         <p>all these words:</p>
                     </div>
                     <div class="search-advanced-query">
-                        <input type="text" name="as_q">
+                        <input class="search-input" type="text" name="as_q">
+                    </div>
+                </div>
+                <div class="search-advanced">
+                    <div class="search-advanced-inst">
+                        <p>this exact word or phrase:</p>
+                    </div>
+                    <div class="search-advanced-query">
+                        <input class="search-input" type="text" name="as_epq">
+                    </div>
+                </div>
+                <div class="search-advanced">
+                    <div class="search-advanced-inst">
+                        <p>any of these words:</p>
+                    </div>
+                    <div class="search-advanced-query">
+                        <input class="search-input" type="text" name="as_oq">
+                    </div>
+                </div>
+                <div class="search-advanced">
+                    <div class="search-advanced-inst">
+                        <p>none of these words:</p>
+                    </div>
+                    <div class="search-advanced-query">
+                        <input class="search-input" type="text" name="as_eq">
                     </div>
                 </div>
                 <div class="query-btns">
-                    <input type="hidden" name="tbm" value="isch">
-                    <input class="btn" type="submit" value="Image Search">
+                    <!-- Find Image Input:
+                        <input type="hidden" name="tbm" value="isch">
+                    -->
+                    <input class="btn-advanced" type="submit" value="Advanced search">
                 </div>
             </form>
         </div>
