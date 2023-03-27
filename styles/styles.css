@@ -191,7 +191,7 @@ h2 {
     align-items: center;
 }
 
-@media (max-width: 1399px) {
+@media (max-width: 1199px) {
     .container {
         margin: 0;
         width: auto;
@@ -202,9 +202,9 @@ h2 {
     }
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .query-advanced {
-        padding: 0 30px;
-    }
+        margin: 0 30px;
+    }s
 }
+
