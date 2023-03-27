@@ -191,7 +191,7 @@ h2 {
     align-items: center;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1399px) {
     .container {
         margin: 0;
         width: auto;
