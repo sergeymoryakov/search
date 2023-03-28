@@ -50,3 +50,8 @@ Otherwise, using Git, push your work to https://github.com/me50/USERNAME.git, wh
 Record a screencast not to exceed 5 minutes in length (and not uploaded more than one month prior to your submission of this project), in which you demonstrate your project’s functionality. Your URL bar must remain visible throughout your demonstration of the project. Be certain that every element of the specification, above, is demonstrated in your video. There’s no need to show your code in this video, just your application in action; we’ll review your code on GitHub. Upload that video to YouTube (as unlisted or public, but not private) or somewhere else. In your video’s description, you must timestamp where your video demonstrates each of the seven (7) elements of the specification. This is not optional, videos without timestamps in their description will be automatically rejected.
 Submit this form.
 You can then go to https://cs50.me/cs50w to view your current progress!
+
+# Status
+Video uploaded to Youtube: 
+CS50's Web Programming - Project 0 - Search, 2023
+link: https://youtu.be/UJ1fKegfK0Q
